@@ -311,11 +311,11 @@ const atTheOldToad = {
     // Change code above this line
    };
   
-  // console.log(atTheOldToad.getPotions());
-  // atTheOldToad.addPotion({ name: "Speed potion", price: 620 });
-  // atTheOldToad.addPotion({ name: "Power potion", price: 270 });
-  // atTheOldToad.addPotion({ name: "Invisibility", price: 270 });
-  // console.log(atTheOldToad.getPotions());
+  console.log(atTheOldToad.getPotions());
+  atTheOldToad.addPotion({ name: "Speed potion", price: 620 });
+  atTheOldToad.addPotion({ name: "Power potion", price: 270 });
+  atTheOldToad.addPotion({ name: "Invisibility", price: 270 });
+  console.log(atTheOldToad.getPotions());
   atTheOldToad.removePotion("Stone skin");
   //atTheOldToad.removePotion("Speed potion");
   console.log(atTheOldToad.getPotions());
