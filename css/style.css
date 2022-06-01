@@ -8,3 +8,23 @@
   background-color: azure;
   color: pink;
 }
+/* We "collapse" the frames of adjacent cells */
+
+table {
+  border-collapse: collapse;
+}
+table caption {
+  text-align: left;
+}
+
+
+
+/* 
+  Add a border and padding to the cells, the distance from the content to the border.
+  To control the vertical position, the caption-side property is used.
+*/
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
